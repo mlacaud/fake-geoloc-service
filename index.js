@@ -33,8 +33,10 @@ for(var i=0; i<flag.length; i++) {
           break;
       case "-p":
           myip.port = flag[i+1] || myip.port;
+          break;
       case "-pt":
           myip.porttracker = flag[i+1] || myip.porttracker;
+          break;
       default:
           break;
     }
